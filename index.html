@@ -10,6 +10,7 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon"  href="./images/stoppage.png" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Google Fonts -->
@@ -29,7 +30,7 @@
       <!-- Nav -->
       <div class="navbar bg-base-100">
         <div class="navbar-start">
-          <h1 class="text-5xl raleway font-semibold">RT-Ticket</h1>
+          <h1 class="text-5xl raleway font-semibold">PH-Ticket</h1>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
@@ -47,23 +48,20 @@
         </div>
       </div>
       <!-- Banner section -->
-      <section class="mt-4">
-        <div
-          class="hero min-h-screen rounded-2xl"
-          style="
-            background-image: url(./images/banner.png) ">
-          <div class="hero-content text-center text-white">
-            <div class="w-2/3 space-y-6">
-              <h1 class="raleway mb-5 text-5xl font-bold text-lime-50">
-                End-to-End Travel with <br />
-                <span class="text-[#1DD100]">RT-Paribahan</span>
-              </h1>
-              <p class="mb-5">
-                Our transport is the best transport in Bangladesh. We provide many benefits and low price offers to our customers. <br> if you bey the ticket then click bey now as soon as possible .
-              </p>
-              <button  class="btn   bg-[#1DD100] border-none text-xl font-bold"> 
-                <a href="#Bey-tocket-section">Buy Tickets</a>
-              </button>
+      <section class="">
+        <div class="carousel w-full">
+          <div class="carousel-item relative w-full">
+            <img src="images/banner.png" class="w-full" />
+            <div class="absolute flex justify-between left-96 top-24">
+              <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-[800px]">
+                  <h1 class="mb-10 text-7xl font-extrabold">End-to-End Travel with</h1>
+                  <h1 class="mb-8 text-7xl font-extrabold text-[#1DD100] ">P Paribahan</h1>
+                  <p class="mb-5 w-[900px] text-2xl">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
+                  <a href="#scrol-link">
+                    <button class="btn mt-16 bg-[#1DD100] border-none text-2xl h-16 w-44">Buy Tickets</button></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -118,13 +116,17 @@
         </div>
       </section>
       <!--  P.H Paribahan section -->
+      <section id="scrol-link" class="text-center my-24">
+        <h1 class="text-5xl font-extrabold mb-5">
+          P.H Paribahan
+        </h1>
+        <p
+        class="text-2xl  px-60">
+          Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .
+        </p>
+      </section>
+
       <section class="mt-10 bg-[#F7F8F8] rounded-t-[80px] mb-4">
-        <div class="p-10 text-center space-y-3">
-          <h1 class="text-3xl font-bold">RT-Paribahan</h1>
-          <p class="w-2/3 mx-auto">
-            Make your trip more enjoyable and safe. Always stay connected with us to get our services. <br> To avail our online services follow www.RT-paribahan.com.
-          </p>
-        </div>
         <!-- Greenline Paribahan section -->
         <div class="container mx-auto flex flex-col lg:flex-row gap-8 bg-white rounded-3xl mb-7">
           <div class="flex-1 p-12">
@@ -204,7 +206,7 @@
                 </button>
               </div>
               <!-- A -->
-              <div class="flex gap-8 mt-5">
+              <div class="flex gap-8 mt-5 justify-around">
                 <div class="text-xl"><p>A</p></div>
 
                 <div class="flex gap-28">
@@ -219,7 +221,7 @@
                 </div>
               </div>
               <!-- B -->
-              <div class="flex gap-8 mt-5">
+              <div class="flex gap-8 mt-12 justify-around">
                 <div class="text-2xl"><p>B</p></div>
 
                 <div class="flex gap-28">
@@ -234,12 +236,72 @@
                 </div>
               </div>
               <!-- c -->
-              <div class="flex gap-8 mt-5">
+              <div class="flex gap-8 mt-12 justify-around">
                 <div class="text-2xl"><p>C</p></div>
 
                 <div class="flex gap-28">
                   <div class="grid grid-cols-2 gap-20">
-                    <button class="btn sit-btn px-10 bg-[#0307121A]">C1</button>
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">D1</button>
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C2</button>
+                  </div>
+                  <div class="grid grid-cols-2 gap-20">
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C3</button>
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C4</button>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="flex gap-8 mt-12 justify-around">
+                <div class="text-2xl"><p>C</p></div>
+
+                <div class="flex gap-28 ">
+                  <div class="grid grid-cols-2 gap-20">
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">D1</button>
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C2</button>
+                  </div>
+                  <div class="grid grid-cols-2 gap-20">
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C3</button>
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C4</button>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="flex gap-8 mt-12 justify-around">
+                <div class="text-2xl"><p>C</p></div>
+
+                <div class="flex gap-28">
+                  <div class="grid grid-cols-2 gap-20">
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">D1</button>
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C2</button>
+                  </div>
+                  <div class="grid grid-cols-2 gap-20">
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C3</button>
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C4</button>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="flex gap-8 mt-12 justify-around">
+                <div class="text-2xl"><p>C</p></div>
+
+                <div class="flex gap-28">
+                  <div class="grid grid-cols-2 gap-20">
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">D1</button>
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C2</button>
+                  </div>
+                  <div class="grid grid-cols-2 gap-20">
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C3</button>
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">C4</button>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="flex gap-8 mt-12 justify-around">
+                <div class="text-2xl"><p>C</p></div>
+
+                <div class="flex gap-28">
+                  <div class="grid grid-cols-2 gap-20">
+                    <button class="btn sit-btn px-10 bg-[#0307121A]">D1</button>
                     <button class="btn sit-btn px-10 bg-[#0307121A]">C2</button>
                   </div>
                   <div class="grid grid-cols-2 gap-20">
@@ -342,35 +404,50 @@
         </div>
       </section>
     </main>
-    <footer class="mt-20 bg-[#030712]">
-      <div class="container mx-auto pt-8">
-        <div class="footer p-10 flex justify-between text-white">
-          <div class="space-y-4">
-            <h6 class="text-3xl font-bold">RT-Ticket</h6>
+    <footer class="p-10 bg-[#030712] text-neutral-content container mx-auto my-24">
+        <div class="flex">
+          <aside class="px-28">
+            <h1 class="text-4xl font-extrabold text-white">
+              P-Ticket
+            </h1>
+            <p>P-Ticket is a digital platform to make your 
+            <br>daily commuting better.</p>
+          </aside> 
+          <nav class="px-[360px]">
+            <h1>Download our app</h1>
+            <div class="grid grid-flow-col gap-4">
+              <img src="images/playstore.png" alt="" class="py-2">
+              <div>
+                <p>
+                  GET IT ON
+                </p>
+                <h1 class="text-2xl">
+                  Google play
+                </h1>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <br>
+        <br>
+        <hr class="text-white">
+        <br>
+        <div class=" flex justify-around">
+          <div>
             <p>
-              RT-Ticket is a digital platform to make your <br />
-              daily commuting better.
+              @all rights reserved, P-Ticket services limited.2024
             </p>
           </div>
-          <div class="grid grid-flow-col gap-4">
-            <div class="space-y-4">
-              <h1 class="mb-3">Download our app</h1>
-              <a href=""><img src="./images/./play.png" alt="" /></a>
-            </div>
+          <div class="flex gap-7">
+            <p>Terms & condition
+            </p>
+            <p>Return & refund policy
+            </p>
+            <p>Privacy policy
+            </p>
           </div>
         </div>
-        <hr class="h-1 text-gray-800" />
-        <div class="footer p-10 flex justify-between text-white">
-          <p>@all rights reserved, RT-Ticket services limited.2024</p>
-          <div class="flex gap-4">
-            <p><u><a href="">Terms & condition</a></u></p>
-            <p><u><a href="">Return & refund policy</a></u></p>
-            <p><u><a href="">Privacy policy</a></u></p>
-        
-          </div>
-        </div>
-      </div>
-    </footer>
+      </footer>
 
     <script src="js/index.js"></script>
   </body>
